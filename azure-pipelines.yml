@@ -8,7 +8,6 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  demands: Agent.Name -equals DESKTOP-25ORGHI
 
 steps:
 - task: Maven@3
